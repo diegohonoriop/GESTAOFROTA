@@ -1,0 +1,16 @@
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\obj\Debug\net11.0\GestaoFrota.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\obj\Debug\net11.0\GestaoFrota.AssemblyInfoInputs.cache
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\obj\Debug\net11.0\GestaoFrota.AssemblyInfo.cs
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\obj\Debug\net11.0\GestaoFrota.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\bin\Debug\net11.0\GestaoFrota.exe
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\bin\Debug\net11.0\GestaoFrota.deps.json
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\bin\Debug\net11.0\GestaoFrota.runtimeconfig.json
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\bin\Debug\net11.0\GestaoFrota.runtimeconfig.dev.json
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\bin\Debug\net11.0\GestaoFrota.dll
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\bin\Debug\net11.0\GestaoFrota.pdb
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\obj\Debug\net11.0\GestaoFrota.dll
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\obj\Debug\net11.0\refint\GestaoFrota.dll
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\obj\Debug\net11.0\GestaoFrota.pdb
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\obj\Debug\net11.0\GestaoFrota.genruntimeconfig.cache
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\obj\Debug\net11.0\ref\GestaoFrota.dll
+C:\Users\diego\OneDrive\Desktop\Gestao-de-Frota\GestaoFrota\obj\Debug\net11.0\GestaoFr.41FF7DDF.Up2Date
