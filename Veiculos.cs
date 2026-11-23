@@ -5,7 +5,7 @@ public class Veiculo
     public string Placa { get; set; }
     public string Modelo { get; set; }
     public int Ano { get; set; }
-    public double KmAtual { get; set; }
+    public double KmAtual { get; private set; }
 
     public Veiculo(string placa, string modelo, int ano, double kmAtual)
     {
@@ -15,20 +15,19 @@ public class Veiculo
         KmAtual = kmAtual;
     }
 
+    public bool AtualizarKm(double novaKm)
+    {
+        if (novaKm <= KmAtual)
+        {
+            return false;
+        }
+
+        KmAtual = novaKm;
+        return true;
+    }
+
     public override string ToString()
     {
         return $"[{Placa}] {Modelo} ({Ano}) - {KmAtual:N0} km";
     }
-
-    public bool AtualizarKm(double novaKm)
-{
-    if (novaKm <= KmAtual)
-    {
-        return false;
-    }
-
-    KmAtual = novaKm;
-    return true;
-}
-
 }

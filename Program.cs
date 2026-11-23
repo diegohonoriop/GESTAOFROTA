@@ -10,6 +10,7 @@ while (opcao != "0")
     Console.WriteLine("1 - Cadastrar veículo");
     Console.WriteLine("2 - Listar veículos");
     Console.WriteLine("3 - Buscar veículo");
+    Console.WriteLine("4 - Atualizar KM");
     Console.WriteLine("0 - Sair");
     Console.Write("\nEscolha uma opção: ");
     opcao = Console.ReadLine() ?? "";
@@ -78,6 +79,39 @@ while (opcao != "0")
                 foreach (var v in encontrados)
                 {
                     Console.WriteLine(v);
+                }
+            }
+            Pausar();
+            break;
+
+            case "4":
+            Console.Write("\nDigite a placa do veículo: ");
+            var placaBusca = (Console.ReadLine() ?? "").Trim();
+
+            var veiculoEncontrado = veiculos
+                .FirstOrDefault(v => v.Placa.Equals(placaBusca, StringComparison.OrdinalIgnoreCase));
+
+            if (veiculoEncontrado is null)
+            {
+                Console.WriteLine("Veículo não encontrado.");
+            }
+            else
+            {
+                Console.WriteLine($"Veículo: {veiculoEncontrado}");
+                Console.Write("Digite a nova quilometragem: ");
+                var novaKmValida = double.TryParse(Console.ReadLine(), out var novaKm);
+
+                if (!novaKmValida)
+                {
+                    Console.WriteLine("Quilometragem inválida.");
+                }
+                else if (veiculoEncontrado.AtualizarKm(novaKm))
+                {
+                    Console.WriteLine($"KM atualizada com sucesso! Novo total: {veiculoEncontrado.KmAtual:N0} km");
+                }
+                else
+                {
+                    Console.WriteLine($"Erro: a nova KM deve ser maior que {veiculoEncontrado.KmAtual:N0} km.");
                 }
             }
             Pausar();
